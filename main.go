@@ -40,9 +40,10 @@ func main() {
 
 	txt := "Color_Wheel"
 	outputDestination := "hello.jpg" // I could not get this part to work with this module. 
-	// I made a seperate module where I made Color_Wheel with Griffin's default starter code. 
+	// I made a seperate main.go file with Dr. Griffin's starter code in order to show what the correct
+	// output should be. 
 
-	//is supposed to print out colored text to an output file. 
+	//is supposed to print out the colored text to an output file. 
 	err = img_module.Text(txt, outputDestination)
 	if err != nil {
 		fmt.Println("Error:", err)
@@ -57,7 +58,7 @@ func main() {
 		return
 	}
 
-	output2 := "Gray_image.jpg"
+	output2 := "gray_image.jpg"
 
 	err = img_module.Gray_scale(fileName, output2)
 	if err != nil {
