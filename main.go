@@ -1,3 +1,24 @@
+/************************************************************************
+ *
+ *  Author:           Brayden Lawson
+ *  Title:            Image Ascii Art
+ *  Course:           4143-101
+ *  Semester:         Fall 2023
+ *
+ *  Description:
+ * Golang program that uses four packages within one module. Each package contains
+ *  a function that will do various things with an image. Each of these packages
+ * has the same name. The name is img_module. 
+ *
+ *
+ *  Usage:
+ *        Used to obtain an image, make it gray, and write text, 
+ *
+ *
+ *  Files: All of them are listed in this repository and the img_module repository
+ ************************************************************************/
+
+
 package main // this program takes a long time to run because it goes through every pixel.
 
 import (
