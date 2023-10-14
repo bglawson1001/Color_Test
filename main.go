@@ -31,7 +31,7 @@ func main() {
 	imageURL := "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/7/18/0/HGTV_Color-Wheel-Full_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1400967008479.jpeg" // Replace with your actual image URL
 	fileName := "downloaded_image.jpg"                                                                                                                                    // Specify the desired file name
 
-	//will download a image file using the url it has. 
+	//will download a image file using its url. 
 	err := img_module.Getpic(imageURL, fileName)
 	if err != nil {
 		fmt.Println("Error:", err)
